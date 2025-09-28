@@ -1,0 +1,3 @@
+[submodule "lg"]
+	path = lg
+	url = git@github.com:joan2937/lg.git
