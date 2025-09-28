@@ -14,6 +14,18 @@ Already cloned?
 git submodule update --init --recursive
 ```
 
+Install dependencies:
+
+```
+sudo apt install python3-pip python3-wheel python3-smbus -y
+```
+
+For python:
+
+```
+pip3 install numpy smbus2
+```
+
 Enter the *lg* directory and build the library:
 
 ```

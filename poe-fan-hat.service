@@ -1,0 +1,11 @@
+[Unit]
+Description=poe-fan-hat service
+After=network.target
+[Service]
+Restart=always
+RestartSec=5
+Type=simple
+ExecStart=/usr/local/bin/poe-fan-hat
+User=melquior
+[Install]
+WantedBy=multi-user.target
