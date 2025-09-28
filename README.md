@@ -14,5 +14,14 @@ Already cloned?
 git submodule update --init --recursive
 ```
 
-Enter the
+Enter the *lg* directory and build the library:
 
+```
+cd lg
+make
+sudo make install
+```
+
+Enable the I2C interface on your Raspberry Pi and reboot.
+
+Test the examples.
